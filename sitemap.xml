@@ -68,6 +68,50 @@
 
   <!-- Event Detail Pages -->
   <url>
+    <loc>https://kedirievent.com/seminar-pelatihan.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/pelatihan1_3_11zon.webp</image:loc>
+      <image:title>Seminar &amp; Pelatihan Kediri</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/event-terdekat.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/event-terdekat1_8_11zon.webp</image:loc>
+      <image:title>Event Terdekat Kediri</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/sport-event.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/sport1_6_11zon.webp</image:loc>
+      <image:title>Sport Event Kediri</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/school-competition.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/school3_9_11zon.webp</image:loc>
+      <image:title>School Competition Kediri</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://kedirievent.com/akustik.html</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -75,17 +119,6 @@
     <image:image>
       <image:loc>https://kedirievent.com/assets/img/konsermegah.webp</image:loc>
       <image:title>Konser Akustik Senja Kediri</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://kedirievent.com/musicfestival.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://kedirievent.com/assets/img/konsermegah.webp</image:loc>
-      <image:title>Festival Musik Kediri</image:title>
     </image:image>
   </url>
 
@@ -101,35 +134,10 @@
   </url>
 
   <url>
-    <loc>https://kedirievent.com/pestarakyat.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://kedirievent.com/duriankuliner.html</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://kedirievent.com/festivalkulinertahu.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://kedirievent.com/offroadkelud.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://kedirievent.com/assets/img/offroad.webp</image:loc>
-      <image:title>Offroad Adventure Gunung Kelud Kediri</image:title>
-    </image:image>
   </url>
 
   <url>
@@ -151,6 +159,17 @@
     <image:image>
       <image:loc>https://kedirievent.com/assets/img/waruturifunrun.webp</image:loc>
       <image:title>Pendaftaran Waru Turi Fun Run 2026 Kediri</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-festival-kuno-kini-2026.html</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/konsermegah.webp</image:loc>
+      <image:title>Festival Kuno-Kini 2026 Kediri</image:title>
     </image:image>
   </url>
 
@@ -196,21 +215,106 @@
   </url>
 
   <url>
-    <loc>https://kedirievent.com/tips-persiapan-offroad-lereng-kelud.html</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://kedirievent.com/assets/img/offroad.webp</image:loc>
-      <image:title>Tips Persiapan Offroad di Lereng Kelud</image:title>
-    </image:image>
-  </url>
-
-  <url>
     <loc>https://kedirievent.com/cara-menuju-lokasi-event-transportasiumum.html</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/festival-kuno-kini-2026-kediri.html</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kedirievent.com/assets/img/konsermegah.webp</image:loc>
+      <image:title>Artikel Festival Kuno-Kini 2026 Kediri</image:title>
+    </image:image>
+  </url>
+
+  <!-- Event Selected Detailed Pages -->
+  <url>
+    <loc>https://kedirievent.com/detail-pelatihan-digital.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-forum-literasi.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-content-creator.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-school-contest.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-freefire-battle.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-mobile-legends.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-fun-walk-nganjuk.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-lomba-poster.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-sekolah-inflasi.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/detail-school-contest-2024.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/program-scholarship-camp-global-english.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/program-holiday-global-english.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
