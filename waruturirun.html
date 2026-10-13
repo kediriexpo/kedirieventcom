@@ -527,6 +527,11 @@
   .faq-header.active .icon-state { 
     transform: rotate(45deg); 
   }
+  .faq-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-out;
+  }
 </style>
 
 <script>
@@ -560,26 +565,23 @@
 
   // 2. --- LOGIKA FAQ TOGGLE ---
   function toggleFaq(button) {
-    // Tutup accordion lain yang sedang terbuka (membuatnya akordion eksklusif)
-    const allHeaders = document.querySelectorAll('.faq-header');
-    allHeaders.forEach(hdr => {
-      if(hdr !== button && hdr.classList.contains('active')) {
-        hdr.classList.remove('active');
-        hdr.nextElementSibling.style.maxHeight = null;
+    const content = button.nextElementSibling;
+    const isCurrentlyActive = button.classList.contains('active');
+
+    // Tutup semua accordion terlebih dahulu
+    document.querySelectorAll('.faq-header').forEach(hdr => {
+      hdr.classList.remove('active');
+      if (hdr.nextElementSibling) {
+        hdr.nextElementSibling.style.maxHeight = '0px';
       }
     });
 
-    // Toggle accordion yang diklik
-    button.classList.toggle('active');
-    const content = button.nextElementSibling;
-    
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null; // Menutup jika sedang terbuka
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px"; // Membuka sesuai tinggi konten
+    // Jika sebelumnya tidak aktif/terbuka, buka yang diklik
+    if (!isCurrentlyActive) {
+      button.classList.add('active');
+      content.style.maxHeight = content.scrollHeight + 'px';
     }
-  }
-</script>
+  }</script>
 
   <footer id="footer" class="footer accent-background">
     <div class="container footer-top">

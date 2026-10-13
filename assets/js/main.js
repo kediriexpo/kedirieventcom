@@ -237,4 +237,66 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Legal Sidebar Scrollspy & Click Handler (syarat.html)
+   */
+  const legalNavLinks = document.querySelectorAll('.legal-nav .nav-link');
+  if (legalNavLinks.length > 0) {
+    const legalSections = [];
+    let isClickScrolling = false;
+    let clickTimeout = null;
+
+    legalNavLinks.forEach((link) => {
+      const hash = link.getAttribute('href');
+      if (hash && hash.startsWith('#')) {
+        const sec = document.querySelector(hash);
+        if (sec) {
+          legalSections.push({ link: link, section: sec });
+        }
+      }
+
+      link.addEventListener('click', function() {
+        isClickScrolling = true;
+        legalNavLinks.forEach((l) => l.classList.remove('active'));
+        this.classList.add('active');
+
+        clearTimeout(clickTimeout);
+        clickTimeout = setTimeout(() => {
+          isClickScrolling = false;
+        }, 800);
+      });
+    });
+
+    function updateLegalScrollspy() {
+      if (isClickScrolling) return;
+
+      // Bottom of page check
+      if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 50)) {
+        if (legalSections.length > 0) {
+          legalNavLinks.forEach((l) => l.classList.remove('active'));
+          legalSections[legalSections.length - 1].link.classList.add('active');
+          return;
+        }
+      }
+
+      const scrollPos = window.scrollY + 160;
+      let current = null;
+
+      for (let i = 0; i < legalSections.length; i++) {
+        const item = legalSections[i];
+        if (item.section.offsetTop <= scrollPos) {
+          current = item.link;
+        }
+      }
+
+      if (current) {
+        legalNavLinks.forEach((l) => l.classList.remove('active'));
+        current.classList.add('active');
+      }
+    }
+
+    window.addEventListener('load', updateLegalScrollspy);
+    document.addEventListener('scroll', updateLegalScrollspy, { passive: true });
+  }
+
 })();

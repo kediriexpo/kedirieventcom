@@ -277,13 +277,13 @@ h6 {
   .navmenu>ul>li>a:before {
     content: "";
     position: absolute;
-    width: 100%;
     height: 2px;
     bottom: -6px;
     left: 0;
     background-color: var(--nav-hover-color);
     visibility: hidden;
     width: 0px;
+    border-radius: 2px;
     transition: all 0.3s ease-in-out 0s;
   }
 
@@ -709,8 +709,8 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 22px;
+  bottom: 82px;
   z-index: 99999;
   background-color: var(--accent-color);
   width: 40px;
@@ -3550,18 +3550,6 @@ section,
   color: #ffffff !important;
 }
 
-/* Memberikan garis bawah (underline) putih pada menu yang sedang aktif untuk penanda */
-.navmenu .active::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-  right: 20px;
-  height: 2px;
-  background-color: #ffffff;
-  border-radius: 2px;
-}
-
 /* Mengubah warna tombol "Get Started" / "Cari Event" di pojok kanan */
 #header .btn-getstarted {
   background-color: #ffffff !important;
@@ -3678,7 +3666,7 @@ section,
 --------------------------------------------------------------*/
 .floating-wa {
   position: fixed;
-  bottom: 80px; /* Ketinggian dari bawah. Ubah angka ini jika masih bertabrakan dengan tombol up */
+  bottom: 15px; /* Berada di posisi paling bawah, di bawah tombol panah scroll-top */
   right: 15px;  /* Jarak dari kanan */
   width: 55px;
   height: 55px;
@@ -3719,8 +3707,13 @@ section,
 
 /* Penyesuaian ukuran untuk layar HP (Mobile) */
 @media (max-width: 768px) {
-  .floating-wa {
+  .scroll-top {
     bottom: 75px;
+    right: 20px;
+  }
+
+  .floating-wa {
+    bottom: 15px;
     right: 15px;
     width: 50px;
     height: 50px;
@@ -3778,11 +3771,6 @@ section,
   .navmenu .active:focus {
     color: #7c25ba !important; 
     background-color: transparent !important;
-  }
-
-  /* Menghilangkan garis bawah putih (efek desktop) yang bocor ke versi mobile */
-  .navmenu .active::after {
-    display: none !important;
   }
 }
 
