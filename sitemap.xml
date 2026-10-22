@@ -318,16 +318,37 @@
   </url>
 
   <url>
-    <loc>https://kedirievent.com/detail-qris-run-kediri.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://kedirievent.com/detail-qris-run-kediri</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://kedirievent.com/detail-kka-kediri.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <loc>https://kedirievent.com/detail-kka-kediri</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/jadwal-event-kediri-november-2026</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/kediri-run-2026</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kedirievent.com/kediri-fashion-batik-festival-motif-batik-kediri</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

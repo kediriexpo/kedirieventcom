@@ -42,7 +42,40 @@
   <meta name="twitter:image" content="https://kedirievent.com/assets/img/konsermegah.webp">
   <meta name="twitter:image:alt" content="Harmoni Akustik Senja - Konser Akustik di Kediri | Kediri Event">
 
-  <!-- Structured Data - BreadcrumbList -->
+    <!-- Structured Data: Organisasi (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kediri Event",
+    "url": "https://kedirievent.com",
+    "logo": "https://kedirievent.com/assets/img/logo3.png",
+    "description": "Platform portal informasi, publikasi media partner, dan dokumentasi event terdepan di Kota dan Kabupaten Kediri.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Raya Gampeng No.45, Gampengrejo",
+      "addressLocality": "Kediri",
+      "addressRegion": "Jawa Timur",
+      "postalCode": "64182",
+      "addressCountry": "ID"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-895-6390-68080",
+      "contactType": "customer service",
+      "areaServed": "ID",
+      "availableLanguage": "Indonesian"
+    },
+    "sameAs": [
+      "https://www.instagram.com/radarkediri/",
+      "https://www.facebook.com/jawaposradarkediri/",
+      "https://twitter.com/jpradarkediri/",
+      "https://www.youtube.com/radarkediritv"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Breadcrumb (BreadcrumbList) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,12 +90,123 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Harmoni Akustik Senja - Konser Akustik di Kediri",
+        "name": "Katalog Event",
+        "item": "https://kedirievent.com/events.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Akustik Senja Taman Brantas 2026",
         "item": "https://kedirievent.com/akustik.html"
       }
     ]
   }
   </script>
+
+  <!-- Structured Data: Bisnis Lokal (LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kediri Event",
+    "image": "https://kedirievent.com/assets/img/logo3.png",
+    "@id": "https://kedirievent.com/#localbusiness",
+    "url": "https://kedirievent.com",
+    "telephone": "+62-895-6390-68080",
+    "priceRange": "$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Raya Gampeng No.45, Gampengrejo",
+      "addressLocality": "Kediri",
+      "addressRegion": "Jawa Timur",
+      "postalCode": "64182",
+      "addressCountry": "ID"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -7.8166,
+      "longitude": 112.0166
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "21:00"
+      }
+    ],
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Kota Kediri"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Kabupaten Kediri"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Eks Karesidenan Kediri"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Detail Event (Event) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Akustik Senja Taman Brantas 2026",
+    "description": "Nikmati syahdunya sore hari di tepi Sungai Brantas ditemani alunan musik akustik, pop folk, dan secangkir kopi dari barista lokal Kediri.",
+    "startDate": "2026-06-01T15:30:00+07:00",
+    "endDate": "2026-06-01T21:00:00+07:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Taman Brantas Kediri",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Inspeksi Brantas, Pocanan",
+        "addressLocality": "Kediri",
+        "postalCode": "64129",
+        "addressRegion": "Jawa Timur",
+        "addressCountry": "ID"
+      }
+    },
+    "image": [
+      "https://kedirievent.com/assets/img/konsermegah.webp"
+    ],
+    "organizer": {
+      "@type": "Organization",
+      "name": "Kediri Event Partner - Senja Creative",
+      "url": "https://kedirievent.com"
+    },
+    "performer": {
+      "@type": "PerformingGroup",
+      "name": "Musisi Akustik & Indie Folk Kediri"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://kedirievent.com/akustik.html",
+      "price": "35000",
+      "priceCurrency": "IDR",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-03-01T00:00:00+07:00",
+      "description": "Tiket Masuk Akustik Senja Taman Brantas (Termasuk Free Kopi & Bean Bag Spot)"
+    }
+  }
+  </script>
+  
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -127,46 +271,7 @@
     </div>
   </header>
 
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Akustik Senja Taman Brantas 2026",
-  "startDate": "2026-06-01T15:30:00+07:00",
-  "endDate": "2026-06-01T21:00:00+07:00",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "location": {
-    "@type": "Place",
-    "name": "Taman Brantas Kediri",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Jl. Inspeksi Brantas, Pocanan",
-      "addressLocality": "Kediri",
-      "postalCode": "64129",
-      "addressRegion": "Jawa Timur",
-      "addressCountry": "ID"
-    }
-  },
-  "image": [
-    "assets/img/manasikhaji.webp"
-  ],
-  "description": "Nikmati syahdunya sore hari di tepi Sungai Brantas ditemani alunan musik akustik, pop folk, dan secangkir kopi dari barista lokal Kediri.",
-  "offers": {
-    "@type": "Offer",
-    "url": "https://kedirievent.com/event-details-akustik.html",
-    "price": "35000",
-    "priceCurrency": "IDR",
-    "availability": "https://schema.org/InStock",
-    "validFrom": "2026-03-01T00:00:00+07:00"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Kediri Event Partner - Senja Creative",
-    "url": "https://kedirievent.com"
-  }
-}
-</script>
+  
 
 <main class="main">
   <div class="bg-light py-3 mt-5 pt-5 border-bottom">
